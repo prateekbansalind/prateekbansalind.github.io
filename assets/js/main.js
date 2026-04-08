@@ -122,7 +122,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.08 });
 
 document.querySelectorAll(
-    '.timeline__card, .skills__category, .contact__card, .about__container, .education__card'
+    '.timeline__card, .skills__category, .contact__card, .about__container, .education__card, .learning__cert-card, .learning__item, .availability'
 ).forEach(el => {
     el.style.opacity    = '0';
     el.style.transform  = 'translateY(18px)';

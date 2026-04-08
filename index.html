@@ -25,7 +25,9 @@
                         <li><a href="#home"       class="nav__link active">Home</a></li>
                         <li><a href="#about"      class="nav__link">About</a></li>
                         <li><a href="#skills"     class="nav__link">Skills</a></li>
+                        <li><a href="#learning"   class="nav__link">Learning</a></li>
                         <li><a href="#experience" class="nav__link">Experience</a></li>
+                        <li><a href="certs.html"  class="nav__link">Certifications</a></li>
                         <li><a href="#contact"    class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -50,7 +52,7 @@
                         <!-- Status badge -->
                         <div class="home__status">
                             <span class="status-dot"></span>
-                            Available for consulting
+                            Open to new opportunities
                         </div>
 
                         <div class="home__greeting">
@@ -118,9 +120,9 @@
                             <div class="about__img-frame">
                                 <img src="assets/img/Linkedin_Pic.jpg" alt="Prateek Bansal">
                             </div>
-                            <div class="about__img-badge">
-                                <i class='bx bxl-microsoft'></i> Azure Certified
-                            </div>
+                            <a href="certs.html" class="about__img-badge">
+                                <i class='bx bxl-microsoft'></i> 2× Azure Certified
+                            </a>
                         </div>
 
                         <div class="about__content">
@@ -132,8 +134,8 @@
                                 <span class="tag">CI/CD</span>
                             </div>
 
-                            <p class="about__text">In 2021, I moved to New Zealand and pivoted into IT &mdash; working as a Data Engineer, then Automation Engineer, and now a Cloud &amp; DevOps Engineer. I specialize in Infrastructure as Code (Terraform, Bicep), CI/CD pipelines, cloud Landing Zones, Kubernetes, and cloud governance.</p>
-                            <p class="about__text">Before IT, I worked as a Quality Engineer in the US automobile industry with Toyota and General Motors at LG Electronics. I &#x1F9E1; coffee and workout.</p>
+                            <p class="about__text">Started my career as a Quality Engineer in the <strong>United States</strong> automobile industry, working with Toyota and General Motors at LG Electronics in Michigan. In 2021, I relocated to <strong>New Zealand</strong> and pivoted into IT &mdash; progressing from Data Engineer to Automation Engineer to Cloud &amp; DevOps Engineer.</p>
+                            <p class="about__text">I specialize in Infrastructure as Code (Terraform, Bicep), CI/CD pipelines, cloud Landing Zones, Kubernetes, and cloud governance. I &#x1F9E1; coffee and workout.</p>
 
                             <!-- Education card -->
                             <div class="education__card">
@@ -150,8 +152,8 @@
                                     <span class="about__stat-label">Years Experience</span>
                                 </div>
                                 <div class="about__stat">
-                                    <span class="about__stat-number">2</span>
-                                    <span class="about__stat-label">Countries</span>
+                                    <span class="about__stat-flags">🇺🇸 🇳🇿</span>
+                                    <span class="about__stat-label">USA &amp; New Zealand</span>
                                 </div>
                                 <div class="about__stat">
                                     <span class="about__stat-number">3</span>
@@ -235,6 +237,59 @@
                                 <span class="chip chip--dark">SQL</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== LEARNING =====-->
+            <section class="learning section" id="learning">
+                <div class="bd-container">
+                    <h2 class="section__title">What's Next</h2>
+
+                    <div class="learning__container">
+
+                        <!-- Featured upcoming cert -->
+                        <div class="learning__featured">
+                            <div class="learning__cert-card">
+                                <div class="learning__cert-badge">
+                                    <span class="status-dot"></span> Exam — Next Month
+                                </div>
+                                <div class="learning__cert-icon"><i class='bx bx-certification'></i></div>
+                                <h3 class="learning__cert-title">CKA</h3>
+                                <p class="learning__cert-fullname">Certified Kubernetes Administrator</p>
+                                <p class="learning__cert-org">Cloud Native Computing Foundation</p>
+                            </div>
+                        </div>
+
+                        <!-- On my radar -->
+                        <div class="learning__radar">
+                            <p class="learning__radar-title">
+                                <span class="t-prompt">//</span> Also on my radar
+                            </p>
+                            <div class="learning__items">
+                                <div class="learning__item">
+                                    <div class="learning__item-icon"><i class='bx bxl-amazon'></i></div>
+                                    <span class="learning__item-name">AWS</span>
+                                    <span class="learning__item-sub">Solutions Architect</span>
+                                </div>
+                                <div class="learning__item">
+                                    <div class="learning__item-icon"><i class='bx bx-brain'></i></div>
+                                    <span class="learning__item-name">AI Engineering</span>
+                                    <span class="learning__item-sub">LLMs &amp; MLOps</span>
+                                </div>
+                                <div class="learning__item">
+                                    <div class="learning__item-icon"><i class='bx bx-layer'></i></div>
+                                    <span class="learning__item-name">Platform Engineering</span>
+                                    <span class="learning__item-sub">IDP &amp; Golden Paths</span>
+                                </div>
+                                <div class="learning__item">
+                                    <div class="learning__item-icon"><i class='bx bx-shield'></i></div>
+                                    <span class="learning__item-name">CNCF Ecosystem</span>
+                                    <span class="learning__item-sub">Argo, Flux, Cilium</span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -405,6 +460,46 @@
                 <div class="bd-container">
                     <h2 class="section__title">Get In Touch</h2>
 
+                    <!-- Availability block -->
+                    <div class="availability">
+                        <div class="availability__header">
+                            <div class="availability__status">
+                                <span class="status-dot"></span>
+                                Open to Opportunities
+                            </div>
+                            <div class="availability__pr">
+                                <i class='bx bx-check-shield'></i>
+                                🇳🇿 NZ Permanent Resident &mdash; no visa sponsorship required
+                            </div>
+                        </div>
+
+                        <div class="availability__grid">
+                            <div class="availability__group">
+                                <p class="availability__group-title">Work Type</p>
+                                <ul class="availability__list">
+                                    <li class="avail--yes"><i class='bx bx-check-circle'></i> Contract</li>
+                                    <li class="avail--yes"><i class='bx bx-check-circle'></i> Fixed-term</li>
+                                    <li class="avail--yes"><i class='bx bx-check-circle'></i> Full-time</li>
+                                </ul>
+                            </div>
+                            <div class="availability__group">
+                                <p class="availability__group-title">Location</p>
+                                <ul class="availability__list">
+                                    <li class="avail--yes"><i class='bx bx-check-circle'></i> Remote &mdash; anywhere worldwide</li>
+                                    <li class="avail--yes"><i class='bx bx-check-circle'></i> Onsite &mdash; Christchurch, NZ <span class="avail--note">(based in Rolleston)</span></li>
+                                    <li class="avail--no"><i class='bx bx-x-circle'></i> Relocation &mdash; not available</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p class="availability__resume">
+                            <i class='bx bx-file'></i>
+                            For a detailed resume, reach out via email at
+                            <a href="mailto:prateekbansalind@gmail.com">prateekbansalind@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <!-- Contact cards -->
                     <div class="contact__container contact__container--4">
                         <div class="contact__card">
                             <div class="contact__icon"><i class='bx bx-envelope'></i></div>
